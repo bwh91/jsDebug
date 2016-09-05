@@ -8,13 +8,19 @@ var Debug = function (on, logName="logfile.txt") {
 
 Debug.prototype.log  = function(x) {
   if(on) {
-    this.log += x;
+    this.log += x + "\n";
   }
 };
 
 Debug.prototype.console = function(x) {
   if(on) {
-    this.log += x;
+    this.log += x + "\n";
+    console.log(x);
+  }
+};
+
+Debug.prototype.consoleOnly = function(x) {
+  if(on) {
     console.log(x);
   }
 };
