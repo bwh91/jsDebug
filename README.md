@@ -1,5 +1,5 @@
 # jsDebug
-a script to help make javascript debugging easier
+a script to help make javascript debugging easier. It mimics the funcionality of the console.log function but allows you to easily turn it of and retrieve a log file.
 
 ## This script allows you to set debug functions to ease development of javascript
 
