@@ -1,9 +1,9 @@
 
 
 var Debug = function (on, logName="logfile.txt") {
-  this.on = on;
-  this.log = "";
-  this.logName = logName;
+    this.on = on;
+    this.log = "";
+    this.logName = logName;
 };
 
 /*
